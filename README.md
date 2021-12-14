@@ -6,11 +6,13 @@ All the Robocorp courses available here: https://robocorp.com/docs/courses
 
 (Styling the code will be done later as a separate exercise >.>)
 
-# Run
+![image](https://user-images.githubusercontent.com/52319409/146075717-f353bd45-3e10-4be8-8bf3-3a75dccce055.png)
+
+# Notes to consider while running
 
 This repository - for demonstration purposes - includes a vault.json file at root folder to allow for secrets being used in a local run. Stashed as a secret is the address to the robot ordering website.
 
-When the robot is ran, assistant asks for the location for a list of orders to be used as source material. The given location for the material in this course is:
+When the robot is run, assistant asks for the location for a list of orders to be used as source material. The given location for the material in this course is:
 
 https://robotsparebinindustries.com/orders.csv
 
