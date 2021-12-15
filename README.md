@@ -6,7 +6,7 @@ All the Robocorp courses available here: https://robocorp.com/docs/courses
 
 (Styling the code will be done later as a separate exercise >.>)
 
-![image](https://user-images.githubusercontent.com/52319409/146075717-f353bd45-3e10-4be8-8bf3-3a75dccce055.png)
+![image](https://user-images.githubusercontent.com/52319409/146160902-b1c5a55c-c7e0-4e00-9477-9ad826d7ef2e.png)
 
 # Notes to consider while running
 
