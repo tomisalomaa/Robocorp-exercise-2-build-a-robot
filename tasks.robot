@@ -29,7 +29,7 @@ Order robots from RobotSpareBin Industries Inc
     ${orders}    Get orders from file
     Fill and enter orders    ${orders}
     Zip receipts    ${OUTPUT_DIR}${/}    ${OUTPUT_DIR}${/}
-    [Teardown]    Close Browser
+    [Teardown]    Remove extra content and close Browser
 
 *** Keywords ***
 Prepare the process directories
@@ -115,4 +115,7 @@ Get orders address
     ...               placeholder=Enter orders.csv address
     ${result}    Run Dialog
     [Return]    ${result.orders_address}
-    
+
+Remove extra content and close Browser
+    Remove Files    ${OUTPUT_DIR}${/}*.pdf
+    Remove Directory    ${img_folder}    recursive=${TRUE}
